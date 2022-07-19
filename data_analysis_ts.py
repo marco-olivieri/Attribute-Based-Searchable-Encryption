@@ -189,7 +189,6 @@ df_counter_Zheng2014_N10 = pd.DataFrame(dict([
 
 max_max_N5 = round(max(ts_dict_tot["Zheng2014_N5"]["proc_1000"]), ndigits=2)
 max_max_N10 = round(max(ts_dict_tot["Zheng2014_N10"]["proc_1000"]), ndigits=2)
-print(max_max_N5)
 df_max_max_N5 = pd.DataFrame({"general_time_max": [max_max_N5]})
 df_max_max_N10 = pd.DataFrame({"general_time_max": [max_max_N10]})
 
